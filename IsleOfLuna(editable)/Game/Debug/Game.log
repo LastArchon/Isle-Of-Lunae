@@ -1,0 +1,4 @@
+﻿  MainMenu.cpp
+h:\capstone\isleofluna(editable)\archonengine\core\debug.h(43): warning C4522: 'core::Debug': multiple assignment operators specified
+h:\capstone\isleofluna(editable)\archonengine\core\timer.h(30): warning C4522: 'core::Timer': multiple assignment operators specified
+  Game.vcxproj -> H:\Capstone\IsleOfLuna(editable)\Debug\Game.exe

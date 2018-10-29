@@ -1,0 +1,26 @@
+﻿  ArchonEngine.cpp
+e:\capstone\isleoflunae\archonengine\core\archonengine.cpp(121): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Debug.cpp
+e:\capstone\isleoflunae\archonengine\core\debug.cpp(68): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Timer.cpp
+e:\capstone\isleoflunae\archonengine\core\timer.cpp(66): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  GameObject.cpp
+e:\capstone\isleoflunae\archonengine\core\gameobject.cpp(41): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Window.cpp
+e:\capstone\isleoflunae\archonengine\core\window.cpp(85): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  ShaderHandler.cpp
+e:\capstone\isleoflunae\archonengine\graphics\shaderhandler.cpp(109): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Manager.cpp
+e:\capstone\isleoflunae\archonengine\managers\manager.cpp(13): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Mesh.cpp
+e:\capstone\isleoflunae\archonengine\rendering\3d\mesh.cpp(92): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Model.cpp
+e:\capstone\isleoflunae\archonengine\rendering\3d\model.cpp(42): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  Scene.cpp
+e:\capstone\isleoflunae\archonengine\core\scene.cpp(31): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  SystemManager.cpp
+e:\capstone\isleoflunae\archonengine\systems\systemmanager.cpp(62): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  InputSystem.cpp
+e:\capstone\isleoflunae\archonengine\systems\inputsystem.cpp(78): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+  System.cpp
+e:\capstone\isleoflunae\archonengine\systems\system.cpp(31): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?

@@ -1,0 +1,1 @@
+[ERROR]ú in e:\capstone\isleoflunae\archonengine\graphics\shaderhandler.cpp on line: 50[FATAL ERROR]I think it worked? in e:\capstone\isleoflunae\archonengine\core\archonengine.cpp on line: 50
