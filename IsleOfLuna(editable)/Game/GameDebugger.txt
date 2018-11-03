@@ -1,0 +1,1 @@
+Initializing the window and first scene in h:\capstone\isleofluna(editable)\archonengine\core\archonengine.cpp on line: 461.13.0 in h:\capstone\isleofluna(editable)\archonengine\systems\window.cpp on line: 67

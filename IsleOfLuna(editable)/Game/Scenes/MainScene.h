@@ -11,7 +11,7 @@ class MainScene : public Scene
 	core::InputSystem* inputSystem;
 public:
 
-	explicit MainScene(Window& windowRef);
+	 MainScene();
 	virtual ~MainScene();
 
 	/// Delete these possible default constructors and operators  

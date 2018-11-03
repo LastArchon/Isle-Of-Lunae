@@ -24,18 +24,19 @@ namespace core
 
 	public:
 		/// Delete these possible default constructors and operators  
-		MainMenu(const MainMenu&) = delete;
+	/*	MainMenu(const MainMenu&) = delete;
 		MainMenu(MainMenu &&) = delete;
 		MainMenu& operator=(const MainMenu &) = delete;
-		MainMenu& operator=(MainMenu &&) = delete;
+		MainMenu& operator=(MainMenu &&) = delete; */
 
 		explicit MainMenu(Window& windowRef);
+		MainMenu();
 		virtual ~MainMenu();
 
-		virtual bool OnCreate();
-		virtual void OnDestroy();
+		virtual bool OnCreate() override;
+		virtual void OnDestroy() override;
 		virtual void Update(const float deltaTime_) override;
-		virtual void Render() const;
+		virtual void Render() const override;
 		virtual void OnResize(const int, const int);
 		int StartGame();
 	};

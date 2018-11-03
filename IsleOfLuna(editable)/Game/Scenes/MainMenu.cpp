@@ -8,14 +8,18 @@
 #include <SDL.h>
 #include <SDL_image.h>
 using namespace core;
+using namespace scene;
 
-
-MainMenu::MainMenu(Window& windowRef) : Scene(windowRef)
+/*MainMenu::MainMenu(Window& windowRef) : Scene(windowRef)
 {
-}
+}*/
+MainMenu::MainMenu()
+{
+
+} 
 void MainMenu::OnResize(int w_, int h_) 
 {
-	window->setWindowSize(w_, h_);
+	//window->setWindowSize(w_, h_);
 	//glViewport(0, 0, window->getWidth(), window->getHeight());
 }
 MainMenu::~MainMenu()
@@ -36,7 +40,7 @@ bool MainMenu::OnCreate()
 void MainMenu::Update(const float deltaTime_)
 {
 
-
+	
 	if (inputSystem->IsSpacePressed())
 	{
 		StartGame();
@@ -46,8 +50,7 @@ void MainMenu::Update(const float deltaTime_)
 		OnDestroy();
 	}
 
-
-
+	
 }
 
 void MainMenu::Render() const
@@ -55,7 +58,7 @@ void MainMenu::Render() const
 	//glEnable(GL_DEPTH_TEST);
 	//glDisable(GL_DEPTH_TEST);
 	//glEnable(GL_CULL_FACE);
-//	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 	SDL_GL_SwapWindow(window->GetWindow());
 	//Initialize PNG loading
@@ -79,6 +82,7 @@ int MainMenu::StartGame()
 
 	Debug::DebugInit();
 	try {
+		ArchonEngine::GetInstance()->SetScene(new MainScene());
 		ArchonEngine::GetInstance()->Run();
 	}
 	catch (std::string fatalError) {

@@ -8,7 +8,7 @@
 #include <SDL_image.h>
 using namespace core;
 
-MainScene::MainScene(Window& windowRef) : Scene(windowRef)
+MainScene::MainScene()
 {
 }
 void MainScene::OnResize(int w_, int h_)

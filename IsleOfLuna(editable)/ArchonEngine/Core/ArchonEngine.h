@@ -22,12 +22,12 @@ namespace core
 	class ArchonEngine
 	{
 	public:
-		ArchonEngine(const ArchonEngine&) = delete;
+		/*ArchonEngine(const ArchonEngine&) = delete;
 		ArchonEngine(ArchonEngine&&) = delete;
 		ArchonEngine& operator=(const ArchonEngine&) = delete;
-		ArchonEngine& operator=(ArchonEngine&&) = delete;
+		ArchonEngine& operator=(ArchonEngine&&) = delete;*/
 
-
+		
 
 
 		bool Init();
@@ -36,28 +36,28 @@ namespace core
 		void Render();
 		bool getIsRunning();
 		//void HandleEvents();
-		//void SetGameInterface(GameInterface* gameInterface_);
+		void SetScene(class Scene* s);
 
 		static ArchonEngine* GetInstance();
 
 
 	
 
-		
-		
+	
 	private:
 		ArchonEngine();
 		~ArchonEngine();
 		//Create a vector of the managers
 		std::vector<Manager*> managers;
-		//Create a mainscene
-		
+		//Create a scene
+		class Scene* currentScene;
 
 
 		static std::unique_ptr<ArchonEngine> engineInstance;
 		friend std::default_delete<ArchonEngine>;
 
 		
+
 		Window window;
 		Timer timer;
 		bool isRunning;
